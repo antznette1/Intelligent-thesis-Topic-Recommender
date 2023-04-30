@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 
 # define key
-api_key = "google spi key"
+api_key = "google api key"
 cse_key = "cse id"
 
 
