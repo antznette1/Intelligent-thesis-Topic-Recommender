@@ -4,8 +4,8 @@ from elasticsearch import Elasticsearch
 def search_supervisors(topics):
     # es_client = Elasticsearch("https://localhost:9200", basic_auth=("elastic", "TDTeGqLzhDAacK=Vuapo"), verify_certs=True, )
     es_client = Elasticsearch(
-        cloud_id="My_deployment:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyRiM2UzZDc0YzliOGI0ZTFjOWE4OWIwMGE0OTdiOWZmYiQ3NDkwNWIwOWYyOWQ0YTMxYjEwMzdjYWI5NzIzZTQwMA==",
-        basic_auth=("elastic", "yyYmbDi6YKvoKuTBhg49EG09"),
+        cloud_id="elastic cloud id",
+        basic_auth=("elastic", "password"),
     )
 
     query = {
