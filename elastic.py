@@ -1,4 +1,4 @@
-from sklearn.feature_extraction.text import TfidfVectorizer
+afrom sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import math
@@ -7,8 +7,8 @@ from elasticsearch import Elasticsearch
 
 def search_supervisors(topics):
     es_client = Elasticsearch(
-        cloud_id="My_deployment:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyQ1YzEzN2JlMTA1OGE0ZjFhYWRlMTY4ZWU5MTJlNmQ4ZSQ4NWE2ZDMxZjY0OTQ0MGEyYTM2OTIwNDQ0NzhmZGI0Yw==",
-        basic_auth=("elastic", "qGoRfbDIeA8FRCFCc2h1h9jI"),
+        cloud_id="elastic cloud id",
+        basic_auth=("elastic", "elastic search password"),
     )
 
 
